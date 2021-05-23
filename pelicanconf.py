@@ -3,7 +3,7 @@
 
 AUTHOR = 'Muhammad Zeeshan'
 SITENAME = 'Earth'
-SITEURL = ''
+SITEURL = 'https://muhammadzshan.github.io/Final-Project-Pelican'
 
 PATH = 'content'
 
