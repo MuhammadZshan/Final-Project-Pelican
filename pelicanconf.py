@@ -4,6 +4,7 @@
 AUTHOR = 'Muhammad Zeeshan'
 SITENAME = 'Earth'
 SITEURL = 'https://muhammadzshan.github.io/Final-Project-Pelican'
+THEME = 'elegant'
 
 PATH = 'content'
 
