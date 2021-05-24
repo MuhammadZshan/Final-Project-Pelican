@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'Muhammad Zeeshan'
-SITENAME = 'Earth'
+SITENAME = 'Countries'
 SITEURL = 'https://muhammadzshan.github.io/Final-Project-Pelican'
 THEME = 'elegant'
 
