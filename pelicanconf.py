@@ -4,7 +4,7 @@
 AUTHOR = 'Muhammad Zeeshan'
 SITENAME = 'Countries'
 SITEURL = 'https://muhammadzshan.github.io/Final-Project-Pelican'
-THEME = 'elegant'
+#THEME = 'elegant'
 
 PATH = 'content'
 
