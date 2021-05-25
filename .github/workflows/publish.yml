@@ -32,9 +32,6 @@ jobs:
       - name: Push to GitHub pages
         id: push-to-gh-pages
         run: |
-      - name: THEME
-        id: https://github.com/Pelican-Elegant/elegant/commit/dbd40e9ab8810ffc54652cba48e38200b29dc7ad
-        run: |
           git config --global user.name "MuhammadZshan"
           git config --global user.email "eb19103091.muhammad.zeeshan.latif@gmail.com"
           git add docs/
