@@ -28,7 +28,7 @@ jobs:
       - name: Theme
         id: Theme
         run: |
-          echo: "$HOME/elegant" >> $GITHUB_PATH
+             echo {"https://github.com/Pelican-Elegant/elegant.git"} >> $GITHUB_P
       - name: Run Pelican
         id: run-pelican
         run: |
