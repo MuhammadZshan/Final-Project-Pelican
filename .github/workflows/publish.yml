@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
       - name: Theme
         run: |
-           "{https://github.com/Pelican-Elegant/elegant.git}" >> $GITHUB_PATH
+          echo "{https://github.com/Pelican-Elegant/elegant.git}" >> $GITHUB_PATH
       - name: Run Pelican
         id: run-pelican
         run: |
