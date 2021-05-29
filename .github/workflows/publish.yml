@@ -26,7 +26,7 @@ jobs:
         run: |
           pip install -r requirements.txt
       - name: Theme
-        run: |
+        with:
             C:\Users\DONT DOUCH MY LAPTOP\Desktop\Final-Project-Pelican\elegant
       - name: Run Pelican
         id: run-pelican
