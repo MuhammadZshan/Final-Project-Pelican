@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
       - name: Theme
         run: |
-          echo "{https://github.com/Pelican-Elegant/elegant.git}" >> $GITHUB_PATH
+          echo "{C:\Users\DONT DOUCH MY LAPTOP\Desktop\Final-Project-Pelican\elegant}" >> $GITHUB_PATH
       - name: Run Pelican
         id: run-pelican
         run: |
