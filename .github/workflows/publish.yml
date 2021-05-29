@@ -28,7 +28,7 @@ jobs:
       - name: Theme
         id: Theme
         run: |
-           C:\Users\DONT DOUCH MY LAPTOP\Desktop\Final-Project-Pelican\elegant
+          echo: "$HOME/.C:\Users\DONT DOUCH MY LAPTOP\Desktop\Final-Project-Pelican\elegant" >> $GITHUB_PATH
       - name: Run Pelican
         id: run-pelican
         run: |
