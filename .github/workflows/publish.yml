@@ -27,6 +27,8 @@ jobs:
           pip install -r requirements.txt
       - name: Run Pelican
         id: run-pelican
+      - name: Theme
+        run: echo "{https://github.com/Pelican-Elegant/elegant.git}" >> $GITHUB_PATH
         run: |
           pelican content --output docs --settings publishconf.py
       - name: Push to GitHub pages
